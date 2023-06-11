@@ -70,8 +70,22 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Kart Oyunu</h1>
-      <button onClick={prepareCards}>Oyunu Başlat</button>
+      <h1>
+      <ul>
+        <li>K</li>
+        <li>A</li>
+        <li>R</li>
+        <li>T</li>
+        <li></li>
+        <li>O</li>
+        <li>Y</li>
+        <li>U</li>
+        <li>N</li>
+        <li>U</li>
+        
+    </ul>
+      </h1>
+      <button className='btn' onClick={prepareCards}>Oyunu Başlat</button>
       <p>{ score }</p>
       <div className="card-grid">
         {

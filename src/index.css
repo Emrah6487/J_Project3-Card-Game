@@ -5,6 +5,11 @@ body {
   margin: 0;
   font-size: 1.5em;
   text-align: center;
-  background-color: #A4907C;
+  background-image: url('../public//img/child.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
   color: #fff;
 }
